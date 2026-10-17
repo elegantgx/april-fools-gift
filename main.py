@@ -12,7 +12,7 @@ app.geometry("500x300")
 pygame.mixer.init()
 pygame.mixer.set_num_channels(5)
 beep = pygame.mixer.Sound("resources/beep.ogg")
-beep.set_volume(0.5)
+beep.set_volume(0.15)
 
 img = ctk.CTkImage(
     light_image=Image.open("resources/error.png"),
