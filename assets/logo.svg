@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+<!-- Copyright (C) 2026 G(x) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="259" viewBox="0 0 300 259">
+  <!-- soft offset shadow -->
+  <g transform="translate(8 10)" fill="#000000" opacity="0.08">
+    <path d="M 20 82 L 78 18 L 281 18 L 281 167 L 222 229 L 20 229 Z"/>
+  </g>
+
+  <!-- box fills -->
+  <g fill="#ffffff">
+    <path d="M 20 82 L 78 18 L 281 18 L 222 82 Z"/>
+    <path d="M 222 82 L 281 18 L 281 167 L 222 229 Z"/>
+    <path d="M 20 82 L 222 82 L 222 229 L 20 229 Z"/>
+  </g>
+
+  <!-- top-face seal line -->
+  <path d="M 52 47 L 255 47" fill="none" stroke="#111111" stroke-width="5.5" stroke-linecap="butt"/>
+
+  <!-- box outline: silhouette + internal edges, each drawn once -->
+  <g fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 20 82 L 78 18 L 281 18 L 281 167 L 222 229 L 20 229 Z"/>
+    <path d="M 20 82 L 222 82 L 222 229"/>
+    <path d="M 222 82 L 281 18"/>
+  </g>
+
+  <!-- G traced from the original icon bitmap -->
+  <path d="M 121.6 113.4 L 112.9 117.2 L 106.9 121.2 L 95.2 132.9 L 93.8 136.1 L 92.1 138.1 L 91.9 139.9 L 90.0 144.4 L 89.9 146.9 L 89.0 148.4 L 89.1 164.9 L 90.2 168.1 L 94.4 174.4 L 99.9 178.8 L 103.4 180.0 L 112.6 180.0 L 114.1 179.1 L 119.9 177.9 L 123.1 176.1 L 130.1 173.8 L 133.4 171.6 L 138.6 166.4 L 139.9 166.1 L 141.0 167.4 L 141.0 175.6 L 142.0 177.4 L 142.0 184.6 L 142.9 184.9 L 146.0 181.6 L 146.0 171.4 L 145.0 169.6 L 145.0 161.4 L 144.0 159.6 L 144.0 146.4 L 143.1 144.9 L 143.0 142.4 L 142.4 141.4 L 140.6 142.0 L 133.4 142.0 L 128.6 140.0 L 120.4 140.0 L 113.9 143.2 L 111.2 145.9 L 111.4 148.0 L 128.6 148.0 L 130.1 147.2 L 136.8 153.9 L 138.0 156.4 L 138.0 161.6 L 137.1 163.1 L 136.8 166.1 L 134.1 168.8 L 130.1 170.1 L 126.9 171.9 L 125.1 172.1 L 120.6 174.0 L 118.1 174.1 L 116.6 175.0 L 108.4 175.0 L 106.9 174.1 L 105.1 173.9 L 102.6 172.6 L 99.4 169.4 L 94.2 162.1 L 93.1 158.9 L 93.0 145.4 L 93.9 143.9 L 95.1 138.1 L 97.2 133.9 L 99.4 130.6 L 104.6 125.4 L 110.9 121.2 L 117.4 118.0 L 126.4 117.6 L 128.8 115.1 L 128.8 113.1 Z" fill="#111111" stroke="#111111" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>
